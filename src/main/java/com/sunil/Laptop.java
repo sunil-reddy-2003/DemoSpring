@@ -1,11 +1,11 @@
 package com.sunil;
 
-public class Laptop {
+public class Laptop implements Computer {
     Laptop(){
         System.out.println("in laptop constructor");
     }
 
-    void compile(){
+    public void compile(){
         System.out.println("compiling in laptop");
     }
 }
