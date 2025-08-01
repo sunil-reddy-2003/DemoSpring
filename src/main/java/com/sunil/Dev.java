@@ -5,7 +5,7 @@ public class Dev {
 
 
 
-    private Computer comp;
+    private Computer com;
 //    private Laptop laptop;
     private int age;
 
@@ -25,12 +25,12 @@ public class Dev {
 //        System.out.println("in dev1 constructor");
 //    }
 
-    public Computer getComp() {
-        return comp;
+    public Computer getCom() {
+        return com;
     }
 
-    public void setComp(Computer comp) {
-        this.comp = comp;
+    public void setCom(Computer com) {
+        this.com = com;
     }
 
 
@@ -49,6 +49,6 @@ public class Dev {
 
     public void build(){
         System.out.println("working on awesome project");
-        comp.compile();
+        com.compile();
     }
 }
